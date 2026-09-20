@@ -1,0 +1,9 @@
+.venv/
+.venv-1/
+.env
+__pycache__/
+*.pyc
+vectorstores/*
+!vectorstores/.gitkeep
+data/*.pdf
+.DS_Store
