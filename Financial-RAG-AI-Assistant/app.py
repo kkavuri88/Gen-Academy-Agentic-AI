@@ -56,7 +56,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.title("Financial RAG AI Assistant")
-st.caption("Document intelligence over the JPMorgan Chase 2024 Annual Report")
+st.caption("AI-powered question answering over the JPMorgan Chase 2024 Annual Report")
 
 if not FIXED_DIR.exists() or not SEMANTIC_DIR.exists():
     st.error("Vector stores not found. Run: python ingest.py")
